@@ -1,0 +1,120 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  background-color: hsl(30, 54%, 90%);
+  margin: 10rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.fuente {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.contenido-receta {
+  color: hsl(30, 10%, 34%);
+}
+
+h1, h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  margin: 5rem 0 0 0;
+  color: hsl(24, 5%, 18%);
+}
+
+h2, ul, ol {
+  color: hsl(14, 45%, 36%);
+} 
+
+li {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.contenedor {
+  max-width: 70rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 2rem;
+}
+
+.contenido-receta h1 {
+  margin-top: 2rem;
+}
+
+.informacion-receta h2 {
+  margin-top: 1.5rem;
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.preparation-time h3, .preparation-time ul {
+  margin: 0;
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation-time ul {
+  padding-left: 2rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.receta {
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+.receta:last-of-type {
+  border: none;
+}
+
+span {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+strong {
+  font-weight: 600;
+  color: hsl(30, 10%, 34%);
+}
+
+.tabla-nutrition {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+}
+
+
+
+
